@@ -25,7 +25,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     env_file:
-      - .env
+      - .env.example
     environment:
       - DEFAULT_DATABASE_HOSTNAME=postgres
       - DEFAULT_DATABASE_PORT=5432

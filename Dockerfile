@@ -1,6 +1,9 @@
 # See https://unit.nginx.org/installation/#docker-images
 
-FROM nginx/unit:1.28.0-python3.10
+#FROM nginx/unit:1.28.0-python3.10
+#FROM nginx/unit:1.29.0-python3.11 #### NOT WORKING - 500 error ####
+#FROM unit:1.30.0-python3.10
+FROM unit:1.30.0-python3.11
 
 ENV PYTHONUNBUFFERED 1
 
